@@ -5,6 +5,7 @@ public class Alumno {
 	public Alumno() {
 		
 	}
+	
 	public Alumno(String nombre, String apellido, String dni) {
 		super();
 		this.nombre = nombre;

@@ -2,9 +2,6 @@
 public class Alumno {
 	private String nombre, apellido, dni;
 
-	public Alumno() {
-		
-	}
 	
 	public Alumno(String nombre, String apellido, String dni) {
 		super();
@@ -13,6 +10,11 @@ public class Alumno {
 		this.dni = dni;
 	}
 
+	
+public Alumno() {
+		
+	}
+	
 	@Override
 	public String toString() {
 		return "Alumno [nombre=" + nombre + ", apellido=" + apellido + ", dni=" + dni + "]";

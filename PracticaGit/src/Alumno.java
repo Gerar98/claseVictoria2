@@ -2,6 +2,10 @@
 public class Alumno {
 	private String nombre, apellido, dni;
 
+	public Alumno() {
+		
+	}
+	
 	public Alumno(String nombre, String apellido, String dni) {
 		super();
 		this.nombre = nombre;
